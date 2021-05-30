@@ -2,16 +2,19 @@
   "name": "node-jimu",
   "version": "0.1.0",
   "main": "dist/index.js",
-  "author": "Martin Alejandro Santangelo",
+  "author": "Martin Alejandro Santangelo <msantang78@gmail.com>",
   "license": "MIT",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msantang78/node-jimu.git"
+  },
   "scripts": {
     "build": "tsc",
     "prepare": "build"
   },
   "dependencies": {
-    "@abandonware/noble": "^1.9.2-14",
-    "say": "^0.16.0"
+    "@abandonware/noble": "^1.9.2-14"
   },
   "devDependencies": {
     "@types/node": "^13.13.4",
