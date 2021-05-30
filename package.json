@@ -1,0 +1,27 @@
+{
+  "name": "node-jimu",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "author": "Martin Alejandro Santangelo",
+  "license": "MIT",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "build"
+  },
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-14",
+    "say": "^0.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.4",
+    "ts-node": "^8.10.0",
+    "typescript": "^3.8.3"
+  },
+  "keywords": [
+    "Jimu",
+    "Ubtech",
+    "bluetooth",
+    "robot"
+  ]
+}
