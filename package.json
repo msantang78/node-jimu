@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "prepare": "build"
+    "prepare": "tsc"
   },
   "dependencies": {
     "@abandonware/noble": "^1.9.2-14"
